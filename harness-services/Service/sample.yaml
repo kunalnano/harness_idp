@@ -1,0 +1,17 @@
+kind: Component
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: sample
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/UCBJyOkwRy69wQkDOgpexg/home/orgs/TPMLabs/projects/testal/details
+    harness.io/cd-serviceId: sample
+    harness.io/services: |
+      sample: https://app.harness.io/ng/account/UCBJyOkwRy69wQkDOgpexg/cd/orgs/TPMLabs/projects/testal/services/sample
+  title: sample
+  tags: []
+spec:
+  type: Service
+  lifecycle: Unknown
+  owner: Unknown
+  domain: TPMLabs
+  system: testal
